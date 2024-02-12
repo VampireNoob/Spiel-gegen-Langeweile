@@ -1,0 +1,57 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 95vh;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Protest Revolution', sans-serif;
+  font-size: 23px;
+  color: #9f7a5f;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  animation: ani 11.5s forwards;
+}
+
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+button {
+  font-family: 'Protest Revolution', sans-serif;
+  font-size: 20px;
+  padding: 15px 18px;
+  border-radius: 12px;
+  background: #587254;
+  cursor: pointer;
+  width: 250px;
+}
+
+button:hover {
+  background: #a48a22;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+/* smartphone */
+@media all and (max-width: 800px) {
+  video {
+    width: 100vw;
+    height: 100vh;
+  }
+}

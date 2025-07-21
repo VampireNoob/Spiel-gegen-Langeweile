@@ -7,7 +7,7 @@ function App() {
   const [quote, setQuote] = useState('');
 
   const getQuote = useCallback(async () => {
-    const response = await fetch(`https://bored-api.appbrewery.com/random`);
+    const response = await fetch(`https://www.boredapi.com/api/activity`);
       const data = await response.json();
       console.log(data)
       setQuote(data.activity)

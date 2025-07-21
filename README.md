@@ -10,4 +10,4 @@ Das problem liegt meist nicht an Netlify sondern an den Browsern bei verwendung 
 2. Wenn es jedoch damit nicht funktioniert, dann sollten Sie nach einer sicheren Alternative suchen die mit "https" beginnt.</p>
 
 ## 🚧 Diese Seite befindet sich aktuell in Bearbeitung.
-Einige Funktionen stehen möglicherweise noch nicht zur Verfügung. Ich suche neue passende API Adresse!
+Einige Funktionen stehen möglicherweise noch nicht zur Verfügung. Die API https://www.boredapi.com/api/activity hat bis vor Kurzem noch funktioniert, ist jetzt jedoch leider außer Betrieb.

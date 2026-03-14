@@ -11,3 +11,4 @@ Das problem liegt meist nicht an Netlify sondern an den Browsern bei verwendung 
 
 ## 🚧 Diese Seite befindet sich aktuell in Bearbeitung.
 Einige Funktionen stehen möglicherweise noch nicht zur Verfügung. Die API https://www.boredapi.com/api/activity hat bis vor Kurzem noch funktioniert, ist jetzt jedoch leider außer Betrieb.
+Habe Momentan eine "Mauelle" Datenbank erstellt auf die dann zugegriffen wird. 
